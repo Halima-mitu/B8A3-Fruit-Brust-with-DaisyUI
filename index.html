@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Brust</title>
+<!--tailwind & daisyUI link-->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!--font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<script src="https://kit.fontawesome.com/e4a58f44eb.js" crossorigin="anonymous"></script>
+<!-- tailwind custom -->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .font-lato{
+        font-family: 'Lato', sans-serif;
+    }
+  </style>
+                                                                                    
 </head>
-<body>
+<body class="font-lato">
+
+    <header class="container mt-12 mx-auto">
+        <nav>
+              <div class="flex justify-center items-center rounded-full  py-8 bg-[#F85559]">
+
+                <div class="flex-1">
+                 <div class="flex gap-2 justify-center">
+                    <img src="./images/logo.png">
+                 <p class="text-4 font-extrabold text-white">Fruit Burst</p>
+                 </div>
+                </div>
+
+                <div class="flex-none p-8 gap-2">
+                  <div class="form-control">
+                    <input type="text" placeholder="Search here" class="input input-bordered w-52 md:w-auto rounded-full" 
+                    />
+                    
+                  </div>
+                </div>
+              </div>
+        </nav>
+
+    </header>
+    
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
     
 </body>
 </html>

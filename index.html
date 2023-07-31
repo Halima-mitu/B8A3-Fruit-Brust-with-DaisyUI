@@ -38,32 +38,312 @@
     <header class="container mt-12 mx-auto">
         <nav>
               <div class="flex justify-center items-center rounded-full  py-8 bg-[#F85559]">
+               
+                <div class="flex px-10 gap-16">
+                  <p class="text-xl text-[#FFFFFF] font-medium">Home</p> 
+                  <p class="text-xl text-[#FFFFFF] font-medium">About us</p>
+                  <p class="text-xl text-[#FFFFFF] font-medium">Shop</p>
+                  <p class="text-xl text-[#FFFFFF] font-medium">All Fruits</p>
+                </div>
 
                 <div class="flex-1">
-                 <div class="flex gap-2 justify-center">
+                 <div class="flex gap-3 justify-center place-items-center">
                     <img src="./images/logo.png">
-                 <p class="text-4 font-extrabold text-white">Fruit Burst</p>
+                 <p class="text-4xl font-bold text-white">Fruit Burst</p>
                  </div>
                 </div>
 
                 <div class="flex-none p-8 gap-2">
                   <div class="form-control">
-                    <input type="text" placeholder="Search here" class="input input-bordered w-52 md:w-auto rounded-full" 
-                    />
-                    
+                    <input class="input lg:w-full rounded-full" type="text" placeholder="Search here"
+                     >
                   </div>
                 </div>
               </div>
         </nav>
 
+        <!--slider or carousel-->
+        <div class="carousel my-24 w-full lg:h-[550px]">
+            <!-- slider 1 -->
+            <div class="carousel-item relative w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                  <img src="images//banner1.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle">❮</a> 
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                
+                <!-- slider 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="images//banner2.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a> 
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <!-- slider 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="images//banner3.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle">❮</a> 
+                    <a href="#slide4" class="btn btn-circle">❯</a>
+                  </div>
+                </div> 
+                <!-- slider 4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="images//banner4.png" class="w-full" />
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a> 
+                    <a href="#slide1" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+
     </header>
     
-    <main>
+    <main class="container font-lato my-24 mx-auto">
+        <section>
+           <div class="flex justify-between">
+           <div class="space-y-5">
+            <h2 class="text-5xl font-extrabold">Deal of the day</h2>
+            <p class="text-xl font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
+           </div>
+            <div class="flex justify-center items-baseline gap-5">
+                <div class="space-y-4">
+                    <h1 class="text-5xl font-extrabold">29</h1>
+                    <p class="text-xl font-medium">Days</p>
+                </div>
+                <div class="flex">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
 
+                <div class="space-y-4">
+                    <h1 class="text-5xl font-extrabold">15</h1>
+                    <p class="text-xl font-medium">Hours</p>
+                </div>
+                <div class="flex justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="space-y-4">
+                    <h1 class="text-5xl font-extrabold">25</h1>
+                    <p class="text-xl font-medium">Minutes</p>
+                </div>
+                <div class="flex justify-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="space-y-4">
+                    <h1 class="text-5xl font-extrabold">08</h1>
+                    <p class="text-xl font-medium">Seconds</p>
+                </div>
+            </div>
+
+           </div>
+        </section>
+
+        <!--happy clients-->
+        <section class="container my-24 mx-auto">
+            <div class="gap-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 px-50">
+  
+              <!--1st review-->
+              <div class="card bg-[#FFF] border border-[#1212121A] p-9">
+                <figure><img class="w-36" src="images//fruit6.png" alt="" /></figure>
+                <div class="card-body text-center space-y-4">
+                  <p class="text-2xl font-bold text-[#121212]">12.90$ - 18.85$</p>
+                  <br>
+                  <hr>
+                  <p class="text-sm font-medium">Apples</p>
+                  <div class="rating justify-center items-center rating-lg rating-half">
+                    <input type="radio" name="rating-10" class="rating-hidden" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  </div>
+                  <div class="text-center space-y-4 mt-4">
+                    <p class="text-xl text-[#F85559] font-bold">Details</p>
+                    
+                  </div>
+                </div>
+              </div>
+  
+              <!--2nd review-->
+              <div class="card  bg-[#FFF] border border-[#1212121A] p-9">
+                <figure><img class="w-36" src="images//fruit7.png" alt="" /></figure>
+                <div class="card-body text-center space-y-4">
+                  <p class="text-2xl font-bold pt-8 text-[#121212]">12.90$ - 18.85$</p>
+                  <br>
+                  <hr>
+                  <p class="text-sm font-medium">Orange</p>
+                  <div class="rating justify-center items-center rating-lg rating-half">
+                    <input type="radio" name="rating-10" class="rating-hidden" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  </div>
+                  <div class="text-center space-y-4 mt-4">
+                    <p class="text-xl text-[#F85559] font-bold">Details</p>
+                    
+                  </div>
+                </div>
+              </div>
+
+               <!--3rd review-->
+               <div class="card  bg-[#FFF] border border-[#1212121A] p-9">
+                <figure><img class="w-36" src="images//fruit8.png" alt="" /></figure>
+                <div class="card-body text-center space-y-4">
+                  <p class="text-2xl font-bold pt-8 text-[#121212]">12.90$ - 18.85$</p>
+                  <br>
+                  <hr>
+                  <p class="text-sm font-medium">Red Dragon</p>
+                  <div class="rating justify-center items-center rating-lg rating-half">
+                    <input type="radio" name="rating-10" class="rating-hidden" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  </div>
+                  <div class="text-center space-y-4 mt-4">
+                    <p class="text-xl text-[#F85559] font-bold">Details</p>
+                    
+                  </div>
+                </div>
+              </div>
+
+               <!--4th review-->
+               <div class="card  bg-[#FFF] border border-[#1212121A] p-9">
+                <figure><img class="w-36" src="images//fruit9.png" alt="" /></figure>
+                <div class="card-body text-center space-y-4">
+                  <p class="text-2xl font-bold text-[#121212]">12.90$ - 18.85$</p>
+                  <br>
+                  <hr>
+                  <p class="text-sm font-medium">Banana</p>
+                  <div class="rating justify-center items-center rating-lg rating-half">
+                    <input type="radio" name="rating-10" class="rating-hidden" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" checked />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-1" />
+                    <input type="radio" name="rating-10" class="bg-[#F85559] mask mask-star-2 mask-half-2" />
+                  </div>
+                  <div class="text-center space-y-4 mt-4">
+                    <p class="text-xl text-[#F85559] font-bold">Details</p>
+                    
+                  </div>
+                </div>
+              </div>
+              
+            </div>
+         </section> 
+
+          <div class="flex justify-center items-center">
+            <div class="text-xl font-extrabold">
+              <button class="btn px-7 py-5 text-[#ffffff] bg-[#F85559]">Shop All</button>
+            </div>
+           </div>
+
+        <!-- team section -->
+        <section class="container my-24 mx-auto">
+
+          <div class="hero min-h-screen" style="background-image: url(https://daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.jpg);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+             
+              <div>
+                <h1 class="mb-5 text-5xl font-extrabold">Meet the team section</h1>
+                <p class="mb-5 text-xl font-medium">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+                
     </main>
 
-    <footer>
+    <footer class="footer footer-center pb-32 bg-[#121212] text-primary-content">
+      <div class="space-y-10">
 
+        <div class="pt-32">
+          <div class="flex gap-3 justify-center place-items-center ">
+            <img src="./images/logo.png">
+            <div>
+              <p class="text-4xl font-bold text-white">Fruit Burst</p>
+            </div>
+         </div>
+        </div>
+
+          <div class="flex gap-16">
+            <p class="text-xl font-medium">Home</p> 
+            <p class="text-xl font-medium">About us</p>
+            <p class="text-xl font-medium">Shop</p>
+            <p class="text-xl font-medium">All Fruits</p>
+            <p class="text-xl font-medium">Support</p>
+            <p class="text-xl font-medium">My Account</p>
+          </div>
+
+      </div> 
+      <div class="space-y-10">
+        <div class="grid grid-flow-col gap-10">
+          <a><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+            <g clip-path="url(#clip0_12_5269)">
+              <path d="M40 20C40 29.9828 32.6859 38.257 23.125 39.757V25.7813H27.7852L28.6719 20H23.125V16.2484C23.125 14.6664 23.9 13.125 26.3844 13.125H28.9062V8.20313C28.9062 8.20313 26.6172 7.8125 24.4289 7.8125C19.8609 7.8125 16.875 10.5813 16.875 15.5938V20H11.7969V25.7813H16.875V39.757C7.31406 38.257 0 29.9828 0 20C0 8.95469 8.95469 0 20 0C31.0453 0 40 8.95469 40 20Z" fill="white"/>
+              <path d="M27.7852 25.7812L28.6719 20H23.125V16.2484C23.125 14.6667 23.8998 13.125 26.3843 13.125H28.9062V8.20312C28.9062 8.20312 26.6175 7.8125 24.4293 7.8125C19.8609 7.8125 16.875 10.5813 16.875 15.5938V20H11.7969V25.7812H16.875V39.757C17.8933 39.9167 18.9369 40 20 40C21.0631 40 22.1067 39.9167 23.125 39.757V25.7812H27.7852Z" fill="#1877F2"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_12_5269">
+                <rect width="40" height="40" fill="white"/>
+              </clipPath>
+            </defs>
+          </svg></a> 
+          <a><svg xmlns="http://www.w3.org/2000/svg" width="58" height="40" viewBox="0 0 58 40" fill="none">
+            <path d="M55.9526 6.25899C55.294 3.81162 53.3644 1.88249 50.9175 1.22347C46.4468 0 28.5643 0 28.5643 0C28.5643 0 10.6821 0 6.21148 1.17683C3.81162 1.83542 1.83498 3.81206 1.17639 6.25899C0 10.7292 0 20 0 20C0 20 0 29.3174 1.17639 33.741C1.83542 36.1879 3.76455 38.1175 6.21192 38.7765C10.7292 40 28.5647 40 28.5647 40C28.5647 40 46.4468 40 50.9175 38.8232C53.3649 38.1646 55.294 36.235 55.953 33.7881C57.1294 29.3174 57.1294 20.0471 57.1294 20.0471C57.1294 20.0471 57.1765 10.7292 55.9526 6.25899Z" fill="white"/>
+            <path d="M22.8706 28.5648L37.7409 20.0001L22.8706 11.4354V28.5648Z" fill="#FF0000"/>
+          </svg></a>
+          <a><svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+            <g clip-path="url(#clip0_12_5283)">
+              <path d="M40.0905 11.7601C39.9968 9.63476 39.6531 8.17359 39.1607 6.90748C38.6528 5.56353 37.8714 4.36029 36.8477 3.36003C35.8474 2.34421 34.6362 1.55487 33.3078 1.05489C32.0344 0.562549 30.5809 0.218854 28.4555 0.125146C26.3143 0.0235031 25.6345 0 20.2038 0C14.773 0 14.0933 0.0235031 11.96 0.11721C9.83463 0.210918 8.37347 0.554918 7.10766 1.04696C5.7634 1.55487 4.56016 2.33627 3.55991 3.36003C2.54408 4.36029 1.75505 5.57146 1.25477 6.89985C0.762424 8.17359 0.418729 9.62682 0.325021 11.7522C0.223378 13.8934 0.199875 14.5732 0.199875 20.0039C0.199875 25.4347 0.223378 26.1144 0.317085 28.2477C0.410793 30.3731 0.754793 31.8342 1.24714 33.1003C1.75505 34.4443 2.54408 35.6475 3.55991 36.6478C4.56016 37.6636 5.77134 38.4529 7.09972 38.9529C8.37347 39.4453 9.82669 39.789 11.9524 39.8827C14.0853 39.9767 14.7654 39.9999 20.1962 39.9999C25.6269 39.9999 26.3067 39.9767 28.44 39.8827C30.5653 39.789 32.0265 39.4453 33.2923 38.9529C35.9805 37.9136 38.1058 35.7882 39.1452 33.1003C39.6372 31.8266 39.9812 30.3731 40.0749 28.2477C40.1686 26.1144 40.1921 25.4347 40.1921 20.0039C40.1921 14.5732 40.1842 13.8934 40.0905 11.7601ZM36.4884 28.0914C36.4023 30.0449 36.0742 31.0998 35.8007 31.8031C35.1286 33.5457 33.7456 34.9287 32.003 35.6008C31.2997 35.8743 30.2372 36.2024 28.2913 36.2882C26.1815 36.3822 25.5488 36.4054 20.2117 36.4054C14.8747 36.4054 14.234 36.3822 12.1318 36.2882C10.1783 36.2024 9.12343 35.8743 8.42017 35.6008C7.553 35.2803 6.76366 34.7724 6.12297 34.1082C5.45878 33.4596 4.95086 32.6782 4.63037 31.811C4.35688 31.1078 4.02875 30.0449 3.94298 28.0994C3.84896 25.9896 3.82577 25.3565 3.82577 20.0195C3.82577 14.6824 3.84896 14.0417 3.94298 11.9399C4.02875 9.98639 4.35688 8.93149 4.63037 8.22823C4.95086 7.36075 5.45878 6.57172 6.1309 5.93072C6.77922 5.26653 7.56063 4.75862 8.42811 4.43843C9.13137 4.16494 10.1942 3.83681 12.1398 3.75073C14.2496 3.65703 14.8826 3.63352 20.2194 3.63352C25.5643 3.63352 26.1971 3.65703 28.2992 3.75073C30.2527 3.83681 31.3076 4.16494 32.0109 4.43843C32.8781 4.75862 33.6674 5.26653 34.3081 5.93072C34.9723 6.57935 35.4802 7.36075 35.8007 8.22823C36.0742 8.93149 36.4023 9.99402 36.4884 11.9399C36.5821 14.0497 36.6056 14.6824 36.6056 20.0195C36.6056 25.3565 36.5821 25.9816 36.4884 28.0914Z" fill="white"/>
+              <path d="M20.2038 9.72845C14.531 9.72845 9.92834 14.3308 9.92834 20.0039C9.92834 25.677 14.531 30.2793 20.2038 30.2793C25.8769 30.2793 30.4792 25.677 30.4792 20.0039C30.4792 14.3308 25.8769 9.72845 20.2038 9.72845ZM20.2038 26.6693C16.5236 26.6693 13.5384 23.6844 13.5384 20.0039C13.5384 16.3234 16.5236 13.3385 20.2038 13.3385C23.8843 13.3385 26.8692 16.3234 26.8692 20.0039C26.8692 23.6844 23.8843 26.6693 20.2038 26.6693Z" fill="white"/>
+              <path d="M33.2846 9.32218C33.2846 10.6469 32.2105 11.721 30.8855 11.721C29.5608 11.721 28.4866 10.6469 28.4866 9.32218C28.4866 7.99716 29.5608 6.92334 30.8855 6.92334C32.2105 6.92334 33.2846 7.99716 33.2846 9.32218Z" fill="white"/>
+            </g>
+            <defs>
+              <clipPath id="clip0_12_5283">
+                <rect width="40" height="40" fill="white" transform="translate(0.129608)"/>
+              </clipPath>
+            </defs>
+          </svg></a>
+        </div>
+      </div>
     </footer>
     
 </body>
